@@ -24,7 +24,8 @@
     var d = parse(e.date);
     li.appendChild(el("div", "when", (showDate ? DAYS[d.getDay()] + " " + MONTHS[d.getMonth()].slice(0, 3) + " " + d.getDate() + " · " : "") + when(e)));
     li.appendChild(el("div", "what", e.title));
-    if (e.details) { var p = el("div", "details muted"); linkify(p, e.details); li.appendChild(p); }
+    var det = (e.details || "").split("\n").map(function (l) { return l.replace(/\s*Lesson: https?:\/\/\S+/, "").trim(); }).filter(Boolean).join("\n");
+    if (det) li.appendChild(el("div", "details muted", det));
     if (e.location) li.appendChild(el("div", "where muted small", "📍 " + e.location));
     return li;
   }

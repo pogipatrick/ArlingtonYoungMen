@@ -349,10 +349,10 @@
  },
  {
   "date": "2027-02-09",
-  "title": "All YM Combined",
-  "details": "All young men together. In charge: Deacons.",
-  "location": "Arlington Stake Center",
-  "type": "ym",
+  "title": "Sweetheart Dancing (combined youth, hosted by Stilly Ward)",
+  "details": "Combined youth activity hosted by Stilly Ward.",
+  "location": "See host ward",
+  "type": "youth",
   "start": "19:00",
   "end": "20:30"
  },
@@ -473,10 +473,10 @@
  },
  {
   "date": "2027-03-09",
-  "title": "All YM Combined",
-  "details": "All young men together. In charge: Priests.",
-  "location": "Arlington Stake Center",
-  "type": "ym",
+  "title": "Combined Youth Activity (hosted by Granite Falls Ward)",
+  "details": "Combined youth activity hosted by Granite Falls Ward, March 9–10. Details TBA.",
+  "location": "See host ward",
+  "type": "youth",
   "start": "19:00",
   "end": "20:30"
  },
@@ -879,10 +879,10 @@
  },
  {
   "date": "2027-06-08",
-  "title": "All YM Combined",
-  "details": "All young men together. In charge: Priests.",
-  "location": "Arlington Stake Center",
-  "type": "ym",
+  "title": "Combined Youth Activity (hosted by Lakewood Ward)",
+  "details": "Combined youth activity hosted by Lakewood Ward.",
+  "location": "See host ward",
+  "type": "youth",
   "start": "19:00",
   "end": "20:30"
  },
@@ -1304,10 +1304,10 @@
  },
  {
   "date": "2027-09-14",
-  "title": "All YM Combined",
-  "details": "All young men together. In charge: Priests.",
-  "location": "Arlington Stake Center",
-  "type": "ym",
+  "title": "Combined Youth Activity: Where's Waldo (hosted by Arlington Ward)",
+  "details": "Combined youth activity hosted by our ward.",
+  "location": "See host ward",
+  "type": "youth",
   "start": "19:00",
   "end": "20:30"
  },
@@ -1720,10 +1720,10 @@
  },
  {
   "date": "2027-12-14",
-  "title": "All YM Combined",
-  "details": "All young men together. In charge: Priests.",
-  "location": "Arlington Stake Center",
-  "type": "ym",
+  "title": "Combined Youth Activity (hosted by Shoultes Ward)",
+  "details": "Combined youth activity hosted by Shoultes Ward.",
+  "location": "See host ward",
+  "type": "youth",
   "start": "19:00",
   "end": "20:30"
  },

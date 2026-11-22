@@ -40,6 +40,26 @@
     list.forEach(function (e) { ul.appendChild(item(e, true)); });
   }
 
+  function renderLessons() {
+    var today = key(new Date());
+    var ul = document.getElementById("lesson-list"); ul.innerHTML = "";
+    var list = events.filter(function (e) { return e.type === "sunday" && e.date >= today; }).slice(0, 4);
+    if (!list.length) ul.appendChild(el("li", "empty muted", "No lessons scheduled yet."));
+    list.forEach(function (e) {
+      var d = parse(e.date);
+      var li = el("li");
+      li.appendChild(el("div", "when", DAYS[d.getDay()] + " " + MONTHS[d.getMonth()].slice(0, 3) + " " + d.getDate()));
+      var title = e.title.replace(/^Sunday Quorum Lesson:?\s*/, "") || "Quorum lesson";
+      var m = (e.details || "").match(/https?:\/\/\S+/);
+      var url = m ? m[0] : "https://www.churchofjesuschrist.org/study/ftsoy/" + e.date.slice(0, 4) + "/" + e.date.slice(5, 7) + "?lang=eng";
+      var a = el("a", "lesson-title", title); a.href = url; a.target = "_blank"; a.rel = "noopener";
+      li.appendChild(a);
+      var who = (e.details || "").split("\n").filter(function (l) { return /teaching:/i.test(l); });
+      if (who.length) li.appendChild(el("div", "muted small", who.join(" · ")));
+      ul.appendChild(li);
+    });
+  }
+
   function renderMonth() {
     var y = view.getFullYear(), m = view.getMonth();
     document.getElementById("month-title").textContent = MONTHS[m] + " " + y;
@@ -72,7 +92,7 @@
   var now = new Date(); view = new Date(now.getFullYear(), now.getMonth(), 1);
   fetch("data/events.json", { cache: "no-store" })
     .then(function (r) { return r.json(); })
-    .then(function (data) { events = data.sort(function (a, b) { return (a.date + (a.start || "")).localeCompare(b.date + (b.start || "")); }); renderWeek(); renderMonth(); })
+    .then(function (data) { events = data.sort(function (a, b) { return (a.date + (a.start || "")).localeCompare(b.date + (b.start || "")); }); renderWeek(); renderLessons(); renderMonth(); })
     .catch(function () { document.getElementById("week-range").textContent = "Couldn't load the calendar. Please refresh."; });
 
   fetch("data/supplements.json", { cache: "no-store" })

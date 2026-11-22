@@ -46,3 +46,11 @@ footer{padding:8px 16px 32px}
 .flyer img{display:block;width:100%;height:auto;background:#fff}
 .flyer figcaption{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
 .btn.small{padding:6px 12px;font-size:.9rem}
+.top-row{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:20px;align-items:start}
+.top-row .card{margin:20px 0 0}
+@media (max-width:760px){.top-row{grid-template-columns:1fr;gap:0}}
+.lessons{list-style:none;padding:0;margin:0}
+.lessons li{padding:10px 0;border-top:1px solid var(--line)}
+.lessons li:first-child{border-top:0}
+.lessons .when{color:var(--sunday)}
+.lesson-title{font-weight:600;display:inline-block;margin:2px 0}

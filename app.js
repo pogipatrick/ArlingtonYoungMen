@@ -69,10 +69,6 @@
   document.getElementById("prev").onclick = function () { view = new Date(view.getFullYear(), view.getMonth() - 1, 1); renderMonth(); };
   document.getElementById("next").onclick = function () { view = new Date(view.getFullYear(), view.getMonth() + 1, 1); renderMonth(); };
 
-  var ics = new URL("calendar.ics", location.href).href;
-  document.getElementById("ics-url").textContent = ics;
-  document.getElementById("sub-link").href = ics.replace(/^https?:/, "webcal:");
-
   var now = new Date(); view = new Date(now.getFullYear(), now.getMonth(), 1);
   fetch("data/events.json", { cache: "no-store" })
     .then(function (r) { return r.json(); })

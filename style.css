@@ -54,3 +54,4 @@ footer{padding:8px 16px 32px}
 .lessons li:first-child{border-top:0}
 .lessons .when{color:var(--sunday)}
 .lesson-title{font-weight:600;display:inline-block;margin:2px 0}
+.host{font-weight:600;color:var(--c);margin-top:2px}

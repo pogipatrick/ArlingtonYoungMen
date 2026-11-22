@@ -26,6 +26,7 @@
     li.appendChild(el("div", "what", e.title));
     var det = (e.details || "").split("\n").map(function (l) { return l.replace(/\s*Lesson: https?:\/\/\S+/, "").trim(); }).filter(Boolean).join("\n");
     if (det) li.appendChild(el("div", "details muted", det));
+    if (e.host) li.appendChild(el("div", "host small", "Host: " + e.host));
     if (e.location) li.appendChild(el("div", "where muted small", "📍 " + e.location));
     return li;
   }

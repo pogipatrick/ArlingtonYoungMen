@@ -1,7 +1,7 @@
-# Young Men site
+# Arlington Young Men site
 
-Static site for GitHub Pages: the live calendar, this week's activities and to-dos, forms, and contacts.
+The site is the calendar. GitHub Pages: https://pogipatrick.github.io/ArlingtonYoungMen/
 
-- `config.js`: the public calendar ID and time zone.
-- `data/week.json`: rebuilt every day by `.github/workflows/update-week.yml` from the calendar's public iCal feed (repository variable `ICS_URL`).
-- To-dos: any line in an event description starting with `To-do:`, `Bring:`, `Wear:`, `Due:`, `Reminder:` or `Permission slip:`.
+- `data/events.json`: every event (the source of truth). Fields: date, start/end (24h) or allDay (+ endDate), title, details, location, type (ym, youth, sunday, temple, stake, leaders).
+- `calendar.ics`: subscribable feed for phones. Rebuild after editing events: `python3 tools/build_ics.py`.
+- The "This week" section is computed in the browser from events.json.

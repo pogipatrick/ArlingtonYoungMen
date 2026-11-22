@@ -1,50 +1,81 @@
 (function () {
-  var cfg = window.SITE_CONFIG || {};
-  if (cfg.calendarId) {
-    var id = encodeURIComponent(cfg.calendarId);
-    var tz = encodeURIComponent(cfg.timeZone || "America/Los_Angeles");
-    document.getElementById("cal-frame").src =
-      "https://calendar.google.com/calendar/embed?src=" + id + "&ctz=" + tz +
-      "&mode=MONTH&showPrint=0&showTabs=1&showCalendars=0&showTz=0";
-    document.getElementById("cal-subscribe").href =
-      "https://calendar.google.com/calendar/render?cid=" + id;
-  }
+  var DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  var MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var events = [];
+  var view;
 
-  function el(tag, cls, text) {
-    var e = document.createElement(tag);
-    if (cls) e.className = cls;
-    if (text) e.textContent = text;
-    return e;
-  }
+  function parse(s) { var p = s.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function key(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+  function addDays(d, n) { var x = new Date(d); x.setDate(x.getDate() + n); return x; }
+  function fmtTime(t) { if (!t) return ""; var h = +t.slice(0, 2), m = t.slice(3); return (h % 12 || 12) + (m === "00" ? "" : ":" + m) + (h < 12 ? " AM" : " PM"); }
+  function when(e) { return e.allDay ? (e.endDate ? "Through " + MONTHS[parse(e.endDate).getMonth()].slice(0,3) + " " + parse(e.endDate).getDate() : "All day") : fmtTime(e.start) + " to " + fmtTime(e.end); }
+  function el(tag, cls, text) { var x = document.createElement(tag); if (cls) x.className = cls; if (text != null) x.textContent = text; return x; }
+  function onDay(k) { return events.filter(function (e) { return e.date <= k && (e.endDate || e.date) >= k; }); }
 
-  fetch("data/week.json", { cache: "no-store" })
-    .then(function (r) { return r.json(); })
-    .then(function (w) {
-      document.getElementById("week-range").textContent = w.range || "";
-      var list = document.getElementById("week-events");
-      if (!w.events || !w.events.length) {
-        list.appendChild(el("li", "empty", "No activities scheduled this week."));
-      }
-      (w.events || []).forEach(function (e) {
-        var li = el("li");
-        li.appendChild(el("div", "when", e.day + " · " + e.time));
-        li.appendChild(el("div", "what", e.title));
-        if (e.location) li.appendChild(el("div", "where muted", e.location));
-        list.appendChild(li);
-      });
-      if (w.todos && w.todos.length) {
-        document.getElementById("week-todos-wrap").hidden = false;
-        var t = document.getElementById("week-todos");
-        w.todos.forEach(function (x) {
-          var li = el("li");
-          li.appendChild(el("span", "todo-event", x.event + ": "));
-          li.appendChild(document.createTextNode(x.text));
-          t.appendChild(li);
-        });
-      }
-      if (w.updated) document.getElementById("week-updated").textContent = "Last updated " + w.updated;
-    })
-    .catch(function () {
-      document.getElementById("week-range").textContent = "Couldn't load this week's activities. See the full calendar below.";
+  function linkify(parent, text) {
+    text.split(/(https?:\/\/\S+)/).forEach(function (part, i) {
+      if (i % 2) { var a = el("a", null, "Lesson link"); a.href = part; a.target = "_blank"; a.rel = "noopener"; parent.appendChild(a); }
+      else if (part) parent.appendChild(document.createTextNode(part.replace(/Lesson: $/, "")));
     });
+  }
+
+  function item(e, showDate) {
+    var li = el("li", "ev t-" + e.type);
+    var d = parse(e.date);
+    li.appendChild(el("div", "when", (showDate ? DAYS[d.getDay()] + " " + MONTHS[d.getMonth()].slice(0, 3) + " " + d.getDate() + " · " : "") + when(e)));
+    li.appendChild(el("div", "what", e.title));
+    if (e.details) { var p = el("div", "details muted"); linkify(p, e.details); li.appendChild(p); }
+    if (e.location) li.appendChild(el("div", "where muted small", "📍 " + e.location));
+    return li;
+  }
+
+  function renderWeek() {
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+    var end = addDays(today, 6);
+    document.getElementById("week-range").textContent =
+      MONTHS[today.getMonth()].slice(0, 3) + " " + today.getDate() + " to " + MONTHS[end.getMonth()].slice(0, 3) + " " + end.getDate();
+    var ul = document.getElementById("week-events"); ul.innerHTML = "";
+    var list = events.filter(function (e) { return (e.endDate || e.date) >= key(today) && e.date <= key(end); });
+    if (!list.length) ul.appendChild(el("li", "empty muted", "Nothing scheduled this week."));
+    list.forEach(function (e) { ul.appendChild(item(e, true)); });
+  }
+
+  function renderMonth() {
+    var y = view.getFullYear(), m = view.getMonth();
+    document.getElementById("month-title").textContent = MONTHS[m] + " " + y;
+    var grid = document.getElementById("grid"); grid.innerHTML = "";
+    DAYS.forEach(function (d) { grid.appendChild(el("div", "dow", d)); });
+    var first = new Date(y, m, 1), start = addDays(first, -first.getDay());
+    var todayKey = key(new Date());
+    for (var i = 0; i < 42; i++) {
+      var d = addDays(start, i);
+      if (i >= 35 && d.getMonth() !== m) break;
+      var cell = el("div", "cell" + (d.getMonth() !== m ? " other" : "") + (key(d) === todayKey ? " today" : ""));
+      cell.appendChild(el("div", "num", d.getDate()));
+      onDay(key(d)).forEach(function (e) {
+        var c = el("div", "chip t-" + e.type, (e.allDay ? "" : fmtTime(e.start).replace(" ", "").toLowerCase() + " ") + e.title.replace(/^Sunday Quorum Lesson:?\s*/, "Lesson ").replace(/^YM\/YW Combined:\s*/, ""));
+        c.title = e.title + " · " + when(e);
+        cell.appendChild(c);
+      });
+      grid.appendChild(cell);
+    }
+    var ul = document.getElementById("month-list"); ul.innerHTML = "";
+    var mk = y + "-" + String(m + 1).padStart(2, "0");
+    var list = events.filter(function (e) { return e.date.slice(0, 7) === mk; });
+    if (!list.length) ul.appendChild(el("li", "empty muted", "Nothing on the calendar this month yet."));
+    list.forEach(function (e) { ul.appendChild(item(e, true)); });
+  }
+
+  document.getElementById("prev").onclick = function () { view = new Date(view.getFullYear(), view.getMonth() - 1, 1); renderMonth(); };
+  document.getElementById("next").onclick = function () { view = new Date(view.getFullYear(), view.getMonth() + 1, 1); renderMonth(); };
+
+  var ics = new URL("calendar.ics", location.href).href;
+  document.getElementById("ics-url").textContent = ics;
+  document.getElementById("sub-link").href = ics.replace(/^https?:/, "webcal:");
+
+  var now = new Date(); view = new Date(now.getFullYear(), now.getMonth(), 1);
+  fetch("data/events.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (data) { events = data.sort(function (a, b) { return (a.date + (a.start || "")).localeCompare(b.date + (b.start || "")); }); renderWeek(); renderMonth(); })
+    .catch(function () { document.getElementById("week-range").textContent = "Couldn't load the calendar. Please refresh."; });
 })();

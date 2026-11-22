@@ -1,0 +1,1871 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Arlington Young Men//Calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Arlington Young Men
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e6b82a7809f5a5ab@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20261122T073000
+DTEND;TZID=America/Los_Angeles:20261122T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:711be1770c4d8340@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson
+DTSTART;TZID=America/Los_Angeles:20261122T110000
+DTEND;TZID=America/Los_Angeles:20261122T120000
+DESCRIPTION:For the Strength of Youth.\nDeacons teaching: Porter N.\nPriests teaching: Brendan R.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:241219b3daf6307d@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20261122T120000
+DTEND;TZID=America/Los_Angeles:20261122T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:0321cefcfdb23f4e@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20261122T180000
+DTEND;TZID=America/Los_Angeles:20261122T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:1ba0409074c08b91@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20261122T190000
+DTEND;TZID=America/Los_Angeles:20261122T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:563df0d468d51d57@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20261124T190000
+DTEND;TZID=America/Los_Angeles:20261124T203000
+DESCRIPTION:Each quorum plans its own activity. Deacons: with the other young deacons.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:f3e94beaf315a760@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson (5th Sunday)
+DTSTART;TZID=America/Los_Angeles:20261129T110000
+DTEND;TZID=America/Los_Angeles:20261129T120000
+DESCRIPTION:5th Sunday lesson.\nDeacons teaching: Reese K.\nPriests teaching: Dallin C.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b99b626334231c66@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined Activity: Christmas Lights & Hot Cocoa at Tulalip
+DTSTART;TZID=America/Los_Angeles:20261201T190000
+DTEND;TZID=America/Los_Angeles:20261201T203000
+DESCRIPTION:Combined YM/YW activity. In charge: Youth Leaders.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:30a8511fd73d9b53@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson: Study the chapter from the FSY guide
+DTSTART;TZID=America/Los_Angeles:20261206T110000
+DTEND;TZID=America/Los_Angeles:20261206T120000
+DESCRIPTION:Fast Sunday. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/12?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:58b8c57fe7aa0a82@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Caroling at Cascade Valley Hospital
+DTSTART;TZID=America/Los_Angeles:20261208T190000
+DTEND;TZID=America/Los_Angeles:20261208T203000
+DESCRIPTION:YM/YW caroling. YM in charge: Priests (Devon checking that the date works).
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5fc4805e830ba9cd@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Stake Nativity Youth Night
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+DESCRIPTION:Stake youth activity. Time TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:87b11e8945f89187@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson: Learn more about trusting Jesus Christ
+DTSTART;TZID=America/Los_Angeles:20261213T110000
+DTEND;TZID=America/Los_Angeles:20261213T120000
+DESCRIPTION:Deacons teaching: Benjamin L.\nPriests teaching: Ethan L.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:8ef6ce4769fb627b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20261215T190000
+DTEND;TZID=America/Los_Angeles:20261215T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:321926cea2ed75ad@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson: Learn more about hope
+DTSTART;TZID=America/Los_Angeles:20261220T110000
+DTEND;TZID=America/Los_Angeles:20261220T120000
+DESCRIPTION:Deacons teaching: Luke D.\nPriests teaching: Brendan R.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:cbbb2aadeef9482b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip (Seattle)
+DTSTART;TZID=America/Los_Angeles:20261222T073000
+DTEND;TZID=America/Los_Angeles:20261222T113000
+DESCRIPTION:Meet 7:30 AM for 9:00 AM session\, possibly followed by a Seattle activity (gingerbread houses\, Bellevue Square\, Gum Wall?).
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ef1c1752f806bb6c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20261222T190000
+DTEND;TZID=America/Los_Angeles:20261222T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:1b76268478b2eb5c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20261227T073000
+DTEND;TZID=America/Los_Angeles:20261227T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:03ba591240fa51dd@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson: Becoming a covenant son of God
+DTSTART;TZID=America/Los_Angeles:20261227T110000
+DTEND;TZID=America/Los_Angeles:20261227T120000
+DESCRIPTION:Deacons teaching: Porter N.\nPriests teaching: Dallin C.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:1cdbe18622184d90@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20261227T120000
+DTEND;TZID=America/Los_Angeles:20261227T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4b064f0eea91419c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20261227T180000
+DTEND;TZID=America/Los_Angeles:20261227T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:5fdaf3c9ff2b906a@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20261227T190000
+DTEND;TZID=America/Los_Angeles:20261227T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:5e9641eb14eae063@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:5th Tuesday Service Activity
+DTSTART;TZID=America/Los_Angeles:20261229T190000
+DTEND;TZID=America/Los_Angeles:20261229T203000
+DESCRIPTION:YM/YW service. Food bank (Melisa L checking with Bro Montero and Lilly) or Purrfect Pals.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b7b2c4a1899ea63d@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson: Study the chapter from the FSY guide
+DTSTART;TZID=America/Los_Angeles:20270103T110000
+DTEND;TZID=America/Los_Angeles:20270103T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/01?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:bfcf2a5bc9b5202f@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Murder Mystery
+DTSTART;TZID=America/Los_Angeles:20270105T190000
+DTEND;TZID=America/Los_Angeles:20270105T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity. In charge: Builders of Faith.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:f4fdd5f20f2479d1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson: Learn more about the plan of salvation
+DTSTART;TZID=America/Los_Angeles:20270110T110000
+DTEND;TZID=America/Los_Angeles:20270110T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/01?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b9163facf8560baf@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20270112T190000
+DTEND;TZID=America/Los_Angeles:20270112T203000
+DESCRIPTION:All young men together. In charge: Teachers.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:9e1140c69d594da3@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b1045f28de26cfe6@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson: Learn more about your relationship with God
+DTSTART;TZID=America/Los_Angeles:20270117T110000
+DTEND;TZID=America/Los_Angeles:20270117T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/01?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:71a77dcb5d2f46f9@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270119T190000
+DTEND;TZID=America/Los_Angeles:20270119T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:0e1a42aecfe6912b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+DESCRIPTION:4th Saturday. In charge: Priests. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:374638cc3f98de7d@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20270124T073000
+DTEND;TZID=America/Los_Angeles:20270124T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:7ffd5a34155ac965@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson: Becoming a covenant son of God
+DTSTART;TZID=America/Los_Angeles:20270124T110000
+DTEND;TZID=America/Los_Angeles:20270124T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/01?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:95f4c8ee91298f35@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20270124T120000
+DTEND;TZID=America/Los_Angeles:20270124T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3a5ddc86202f00ad@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20270124T180000
+DTEND;TZID=America/Los_Angeles:20270124T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:205810bc8b467a5a@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20270124T190000
+DTEND;TZID=America/Los_Angeles:20270124T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:3039e44181e7e58b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270126T190000
+DTEND;TZID=America/Los_Angeles:20270126T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:cdb1844aed588861@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson (5th Sunday)
+DTSTART;TZID=America/Los_Angeles:20270131T110000
+DTEND;TZID=America/Los_Angeles:20270131T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/01?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:dd2c3ec9dc3ed2cc@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Activity TBD
+DTSTART;TZID=America/Los_Angeles:20270202T190000
+DTEND;TZID=America/Los_Angeles:20270202T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b01c26786d690f45@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20270207T110000
+DTEND;TZID=America/Los_Angeles:20270207T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:645a6d137222da89@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20270209T190000
+DTEND;TZID=America/Los_Angeles:20270209T203000
+DESCRIPTION:All young men together. In charge: Deacons.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:97c67be2055cee49@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20270214T110000
+DTEND;TZID=America/Los_Angeles:20270214T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e734b5410e48ab70@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270216T190000
+DTEND;TZID=America/Los_Angeles:20270216T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:0276228ec081960e@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:51df39645e6079f4@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20270221T110000
+DTEND;TZID=America/Los_Angeles:20270221T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5226954e53ae40e5@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270223T190000
+DTEND;TZID=America/Los_Angeles:20270223T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5661554ceb7ac8e0@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+DESCRIPTION:4th Saturday. In charge: Teachers. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:37f3b09b2d533165@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20270228T073000
+DTEND;TZID=America/Los_Angeles:20270228T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b3445d70546cec46@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20270228T110000
+DTEND;TZID=America/Los_Angeles:20270228T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ce23ba917ed267a1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20270228T120000
+DTEND;TZID=America/Los_Angeles:20270228T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:65ebfca49ea368e2@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20270228T180000
+DTEND;TZID=America/Los_Angeles:20270228T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:6277c6be94b8a6d1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20270228T190000
+DTEND;TZID=America/Los_Angeles:20270228T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:05e79d712de8d2bc@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Activity TBD
+DTSTART;TZID=America/Los_Angeles:20270302T190000
+DTEND;TZID=America/Los_Angeles:20270302T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:1f2bae61f5a7b0a4@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20270307T110000
+DTEND;TZID=America/Los_Angeles:20270307T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:f46c1498b65c3b06@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20270309T190000
+DTEND;TZID=America/Los_Angeles:20270309T203000
+DESCRIPTION:All young men together. In charge: Priests.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:06880aa3063c8af1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20270314T110000
+DTEND;TZID=America/Los_Angeles:20270314T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:591926a059da8da5@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270316T190000
+DTEND;TZID=America/Los_Angeles:20270316T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:0707d0c4fdc637d1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:d5c4ab993b767dfc@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20270321T110000
+DTEND;TZID=America/Los_Angeles:20270321T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:02919dcdefab412d@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270323T190000
+DTEND;TZID=America/Los_Angeles:20270323T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:2cda30109504c0da@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+DESCRIPTION:4th Saturday. In charge: Deacons. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:8cca299469592e83@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20270328T073000
+DTEND;TZID=America/Los_Angeles:20270328T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:49a2d9a746169605@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20270328T110000
+DTEND;TZID=America/Los_Angeles:20270328T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e5c52f58c771b40d@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20270328T120000
+DTEND;TZID=America/Los_Angeles:20270328T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:60f5f9aff112dd62@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20270328T180000
+DTEND;TZID=America/Los_Angeles:20270328T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:1c191f80d55370b1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20270328T190000
+DTEND;TZID=America/Los_Angeles:20270328T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:ad46184426428dce@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:5th Tuesday Service Activity
+DTSTART;TZID=America/Los_Angeles:20270330T190000
+DTEND;TZID=America/Los_Angeles:20270330T203000
+DESCRIPTION:YM/YW service activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:6d541422f379b301@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Stake April Fools Youth Activity
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+DESCRIPTION:Stake event.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:94e87b12f0e2551a@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20270404T110000
+DTEND;TZID=America/Los_Angeles:20270404T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:39d2d3d35d37e1b2@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Moses Lake Temple + Biking/Hiking day trip (spring break)
+DTSTART;TZID=America/Los_Angeles:20270406T190000
+DTEND;TZID=America/Los_Angeles:20270406T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity. In charge: Gatherers of Light.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:712186c225dc7d25@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20270411T110000
+DTEND;TZID=America/Los_Angeles:20270411T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ec64997b6f974f44@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20270413T190000
+DTEND;TZID=America/Los_Angeles:20270413T203000
+DESCRIPTION:All young men together. In charge: Teachers.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:a7e0a0cd0346aa54@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Stake Jr./Sr. Temple Trip
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270418
+DESCRIPTION:Stake event\, Apr 15 to 17.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4618453a7ef54da1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:add9eaf9ed6bd59c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20270418T110000
+DTEND;TZID=America/Los_Angeles:20270418T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3f9dd50f2adb74c4@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270420T190000
+DTEND;TZID=America/Los_Angeles:20270420T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:05f61fac0aa290a1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+DESCRIPTION:4th Saturday. In charge: Priests. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e9f159965be8a4bd@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20270425T073000
+DTEND;TZID=America/Los_Angeles:20270425T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:9c6a0e4877175e04@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20270425T110000
+DTEND;TZID=America/Los_Angeles:20270425T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:489444ed6274c11c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20270425T120000
+DTEND;TZID=America/Los_Angeles:20270425T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:cb1c0f13a01b866d@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20270425T180000
+DTEND;TZID=America/Los_Angeles:20270425T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:77c3e2445cf8d982@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20270425T190000
+DTEND;TZID=America/Los_Angeles:20270425T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:a63c73f6b18015f9@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270427T190000
+DTEND;TZID=America/Los_Angeles:20270427T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b12dc1bf7321a19f@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20270502T110000
+DTEND;TZID=America/Los_Angeles:20270502T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4c19f698559a1f73@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Star Wars Laser Tag
+DTSTART;TZID=America/Los_Angeles:20270504T190000
+DTEND;TZID=America/Los_Angeles:20270504T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity. In charge: Teachers.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:338f5aa5bfcff66b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20270509T110000
+DTEND;TZID=America/Los_Angeles:20270509T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:546841375e0b006c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20270511T190000
+DTEND;TZID=America/Los_Angeles:20270511T203000
+DESCRIPTION:All young men together. In charge: Deacons.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:9b4b15a3bd752781@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:70d183fb184397f6@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20270516T110000
+DTEND;TZID=America/Los_Angeles:20270516T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4c60f5cb431f01e2@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270518T190000
+DTEND;TZID=America/Los_Angeles:20270518T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3bd3b83ae08e03d2@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+DESCRIPTION:4th Saturday. In charge: Teachers. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:7d81936543d76042@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20270523T073000
+DTEND;TZID=America/Los_Angeles:20270523T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:a9c9cbbf44d38ce9@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20270523T110000
+DTEND;TZID=America/Los_Angeles:20270523T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:6c6146e7cd136673@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20270523T120000
+DTEND;TZID=America/Los_Angeles:20270523T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:1f91e1735f438d8f@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20270523T180000
+DTEND;TZID=America/Los_Angeles:20270523T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:efb79a5eac3afdd9@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20270523T190000
+DTEND;TZID=America/Los_Angeles:20270523T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:5c4256ad0bdd62ee@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270525T190000
+DTEND;TZID=America/Los_Angeles:20270525T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ecb8601d0fba22c8@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson (5th Sunday)
+DTSTART;TZID=America/Los_Angeles:20270530T110000
+DTEND;TZID=America/Los_Angeles:20270530T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b7f9c76e02b4eb3c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Activity TBD
+DTSTART;TZID=America/Los_Angeles:20270601T190000
+DTEND;TZID=America/Los_Angeles:20270601T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:085aaadc3e70000b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20270606T110000
+DTEND;TZID=America/Los_Angeles:20270606T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:395897c96a18ec11@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20270608T190000
+DTEND;TZID=America/Los_Angeles:20270608T203000
+DESCRIPTION:All young men together. In charge: Priests.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ba438284f0b13456@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20270613T110000
+DTEND;TZID=America/Los_Angeles:20270613T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:526e5ddce53f001c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270615T190000
+DTEND;TZID=America/Los_Angeles:20270615T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e907681620be285b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Senior Graduation Rec
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+DESCRIPTION:Youth event.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:22fd0a05c9166024@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:50b8f8aed38ef7bb@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20270620T110000
+DTEND;TZID=America/Los_Angeles:20270620T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5e17740c6234e4e3@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270622T190000
+DTEND;TZID=America/Los_Angeles:20270622T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:2e9b844fabf1c850@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+DESCRIPTION:4th Saturday. In charge: Deacons. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:f7edd01ea5da0cdc@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20270627T073000
+DTEND;TZID=America/Los_Angeles:20270627T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e53a3dbfb526d436@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20270627T110000
+DTEND;TZID=America/Los_Angeles:20270627T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:6c6254613e0fd379@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20270627T120000
+DTEND;TZID=America/Los_Angeles:20270627T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:9b42eaf53479ac0c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20270627T180000
+DTEND;TZID=America/Los_Angeles:20270627T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:d44e5b37df473a34@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20270627T190000
+DTEND;TZID=America/Los_Angeles:20270627T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:3ba95e39495a6c4b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:5th Tuesday Service Activity
+DTSTART;TZID=America/Los_Angeles:20270629T190000
+DTEND;TZID=America/Los_Angeles:20270629T203000
+DESCRIPTION:YM/YW service activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:bdd50e6bc14a6dd0@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20270704T110000
+DTEND;TZID=America/Los_Angeles:20270704T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:cf5f76bffa92201f@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: River Float
+DTSTART;TZID=America/Los_Angeles:20270706T190000
+DTEND;TZID=America/Los_Angeles:20270706T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity. In charge: Messengers of Hope.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:6f0534a2bf833011@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20270711T110000
+DTEND;TZID=America/Los_Angeles:20270711T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:f6374c4aa8b1dee0@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20270713T190000
+DTEND;TZID=America/Los_Angeles:20270713T203000
+DESCRIPTION:All young men together. In charge: Teachers.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:0e195b3069e9aea3@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:038a00ac3c7a4ff8@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20270718T110000
+DTEND;TZID=America/Los_Angeles:20270718T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4b33848a6a57f4c4@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270720T190000
+DTEND;TZID=America/Los_Angeles:20270720T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4f2f57e64453b762@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+DESCRIPTION:4th Saturday. In charge: Priests. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b2bd109fd586ef94@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20270725T073000
+DTEND;TZID=America/Los_Angeles:20270725T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:6972aab862061d9a@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20270725T110000
+DTEND;TZID=America/Los_Angeles:20270725T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:7e084c868c15bacc@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20270725T120000
+DTEND;TZID=America/Los_Angeles:20270725T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4eece5c703d78763@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20270725T180000
+DTEND;TZID=America/Los_Angeles:20270725T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:6e80119ae8bdbf43@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20270725T190000
+DTEND;TZID=America/Los_Angeles:20270725T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:5bae1c56f5c4d9fc@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270727T190000
+DTEND;TZID=America/Los_Angeles:20270727T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:2fe439c3b23420af@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20270801T110000
+DTEND;TZID=America/Los_Angeles:20270801T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:415b86a585cdfdb1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:SLC Temple Trip
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270807
+DESCRIPTION:Aug 2 to 6.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4a849bb63c9faee1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Activity TBD (SLC Temple Trip week)
+DTSTART;TZID=America/Los_Angeles:20270803T190000
+DTEND;TZID=America/Los_Angeles:20270803T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:cca82e273ec10ebf@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20270808T110000
+DTEND;TZID=America/Los_Angeles:20270808T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:c30cfbab0cb021cc@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20270810T190000
+DTEND;TZID=America/Los_Angeles:20270810T203000
+DESCRIPTION:All young men together. In charge: Deacons.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:6fa0655db7c6009c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20270815T110000
+DTEND;TZID=America/Los_Angeles:20270815T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:0be2d18999948688@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270817T190000
+DTEND;TZID=America/Los_Angeles:20270817T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:12dfd7e3ade76e73@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:c4b028a513887a9c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20270822T073000
+DTEND;TZID=America/Los_Angeles:20270822T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e821d2c757cabcd1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20270822T110000
+DTEND;TZID=America/Los_Angeles:20270822T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:780ffa28ef9ce1a9@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20270822T120000
+DTEND;TZID=America/Los_Angeles:20270822T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:7298f08f3ca1194f@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20270822T180000
+DTEND;TZID=America/Los_Angeles:20270822T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:a9430d2ef585fdb4@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20270822T190000
+DTEND;TZID=America/Los_Angeles:20270822T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:27addf6f3d3a802b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270824T190000
+DTEND;TZID=America/Los_Angeles:20270824T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ba34170c11ab4bc5@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+DESCRIPTION:4th Saturday. In charge: Teachers. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:1fe07a2698838508@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson (5th Sunday)
+DTSTART;TZID=America/Los_Angeles:20270829T110000
+DTEND;TZID=America/Los_Angeles:20270829T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:370e4da76530b503@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:5th Tuesday Service Activity
+DTSTART;TZID=America/Los_Angeles:20270831T190000
+DTEND;TZID=America/Los_Angeles:20270831T203000
+DESCRIPTION:YM/YW service activity. Gatherers/Priests in charge.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:0e07dee49a3e5553@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20270905T110000
+DTEND;TZID=America/Los_Angeles:20270905T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ebc635a42b47f086@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Activity TBD
+DTSTART;TZID=America/Los_Angeles:20270907T190000
+DTEND;TZID=America/Los_Angeles:20270907T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:8603a5a5ec3db453@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20270912T110000
+DTEND;TZID=America/Los_Angeles:20270912T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:d3d901f149cc67b2@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20270914T190000
+DTEND;TZID=America/Los_Angeles:20270914T203000
+DESCRIPTION:All young men together. In charge: Priests.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:609023c736270b1f@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:7be82672306f2dcc@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20270919T110000
+DTEND;TZID=America/Los_Angeles:20270919T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:392c80903d54324d@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270921T190000
+DTEND;TZID=America/Los_Angeles:20270921T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b6f1a952b6607458@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+DESCRIPTION:4th Saturday. In charge: Deacons. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:a4bb6f281346e780@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20270926T073000
+DTEND;TZID=America/Los_Angeles:20270926T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:2fbc5e5ac920174a@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20270926T110000
+DTEND;TZID=America/Los_Angeles:20270926T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3bbe2e900f04305c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20270926T120000
+DTEND;TZID=America/Los_Angeles:20270926T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4aed7e6178d30a53@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20270926T180000
+DTEND;TZID=America/Los_Angeles:20270926T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:1346c1a867c219d7@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20270926T190000
+DTEND;TZID=America/Los_Angeles:20270926T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:3f428249d7397e8c@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20270928T190000
+DTEND;TZID=America/Los_Angeles:20270928T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:7ca226e53c3abc9b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20271003T110000
+DTEND;TZID=America/Los_Angeles:20271003T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:983b8d0674a27b88@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Paintballing
+DTSTART;TZID=America/Los_Angeles:20271005T190000
+DTEND;TZID=America/Los_Angeles:20271005T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity. In charge: Priests.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:30d1d8a57db321ea@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20271010T110000
+DTEND;TZID=America/Los_Angeles:20271010T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4078b7bda1e98ad3@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20271012T190000
+DTEND;TZID=America/Los_Angeles:20271012T203000
+DESCRIPTION:All young men together. In charge: Teachers.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e8973223fdcba808@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:7ba2999cbed1bdfc@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20271017T110000
+DTEND;TZID=America/Los_Angeles:20271017T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:775b6256af9ca758@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20271019T190000
+DTEND;TZID=America/Los_Angeles:20271019T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ee7aba6d6a9a755d@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271024
+DESCRIPTION:4th Saturday. In charge: Priests. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:461d886715c8e183@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20271024T073000
+DTEND;TZID=America/Los_Angeles:20271024T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:17fc11c22d4fbb51@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20271024T110000
+DTEND;TZID=America/Los_Angeles:20271024T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5258708ccaa1b49f@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20271024T120000
+DTEND;TZID=America/Los_Angeles:20271024T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:eafd2766678b8a52@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20271024T180000
+DTEND;TZID=America/Los_Angeles:20271024T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:3585c7c447a3fce2@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20271024T190000
+DTEND;TZID=America/Los_Angeles:20271024T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:b0c92904304d56aa@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Trunk or Treat
+DTSTART;TZID=America/Los_Angeles:20271026T180000
+DTEND;TZID=America/Los_Angeles:20271026T193000
+DESCRIPTION:Ward Trunk or Treat.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:d01bb1a8a2c42b81@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20271026T190000
+DTEND;TZID=America/Los_Angeles:20271026T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:c8bbacdc44dc086e@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson (5th Sunday)
+DTSTART;TZID=America/Los_Angeles:20271031T110000
+DTEND;TZID=America/Los_Angeles:20271031T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:dc881252cc494bb7@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Guns & Exploding Pumpkins
+DTSTART;TZID=America/Los_Angeles:20271102T190000
+DTEND;TZID=America/Los_Angeles:20271102T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity. In charge: Deacons & Builders of Faith.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:0cc240e50af69b6b@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Stake Fall Festival
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
+DESCRIPTION:Stake event.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:6e63dc0f3bfc783e@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20271107T110000
+DTEND;TZID=America/Los_Angeles:20271107T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:f0c9d78dbdc49b48@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20271109T190000
+DTEND;TZID=America/Los_Angeles:20271109T203000
+DESCRIPTION:All young men together. In charge: Deacons.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ae968f1f7b7de1a1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20271114T110000
+DTEND;TZID=America/Los_Angeles:20271114T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:67fdd98af9351b37@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20271116T190000
+DTEND;TZID=America/Los_Angeles:20271116T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:d3a91a151496b407@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:8e47f30b83674602@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20271121T110000
+DTEND;TZID=America/Los_Angeles:20271121T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:8f43909e2c866b26@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20271123T190000
+DTEND;TZID=America/Los_Angeles:20271123T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e84369ed33e6b953@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20271127
+DTEND;VALUE=DATE:20271128
+DESCRIPTION:4th Saturday. In charge: Teachers. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:574fe7679bc6d460@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20271128T073000
+DTEND;TZID=America/Los_Angeles:20271128T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:aa019e574c5c2d84@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20271128T110000
+DTEND;TZID=America/Los_Angeles:20271128T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:d6f84082831ec9fa@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20271128T120000
+DTEND;TZID=America/Los_Angeles:20271128T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:dd2795b4a24cb349@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20271128T180000
+DTEND;TZID=America/Los_Angeles:20271128T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:2c1d6362e41d5b41@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20271128T190000
+DTEND;TZID=America/Los_Angeles:20271128T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:db40a012d2e3d097@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:5th Tuesday Service Activity
+DTSTART;TZID=America/Los_Angeles:20271130T190000
+DTEND;TZID=America/Los_Angeles:20271130T203000
+DESCRIPTION:YM/YW service activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:80f37023f3d45bd6@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 1 (Fast Sunday)
+DTSTART;TZID=America/Los_Angeles:20271205T110000
+DTEND;TZID=America/Los_Angeles:20271205T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:61d7658d89221b71@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM/YW Combined: Christmas Lights\, Caroling & Hot Cocoa
+DTSTART;TZID=America/Los_Angeles:20271207T190000
+DTEND;TZID=America/Los_Angeles:20271207T203000
+DESCRIPTION:1st Tuesday combined YM/YW activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b6b5804937df8ae1@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Nativity Festival (Stake Youth Night)
+DTSTART;VALUE=DATE:20271209
+DTEND;VALUE=DATE:20271213
+DESCRIPTION:Dec 9 to 12.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4360dfc16bd6a6b0@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 2
+DTSTART;TZID=America/Los_Angeles:20271212T110000
+DTEND;TZID=America/Los_Angeles:20271212T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:2ae849b05ab5d2f4@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:All YM Combined
+DTSTART;TZID=America/Los_Angeles:20271214T190000
+DTEND;TZID=America/Los_Angeles:20271214T203000
+DESCRIPTION:All young men together. In charge: Priests.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:769062563b8e8284@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Youth Temple Trip
+DTSTART;VALUE=DATE:20271218
+DTEND;VALUE=DATE:20271219
+DESCRIPTION:Monthly youth temple trip\, usually the 3rd Saturday\; date and time depend on temple availability.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:96c7e0c51d1f6124@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 3
+DTSTART;TZID=America/Los_Angeles:20271219T110000
+DTEND;TZID=America/Los_Angeles:20271219T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e19f6c24c5f10596@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20271221T190000
+DTEND;TZID=America/Los_Angeles:20271221T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:eed3f4e86652d059@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Weekend Activity
+DTSTART;VALUE=DATE:20271225
+DTEND;VALUE=DATE:20271226
+DESCRIPTION:4th Saturday. In charge: Deacons. Activity TBD.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:373675dc5b76a0dc@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Adult Leaders Meeting
+DTSTART;TZID=America/Los_Angeles:20271226T073000
+DTEND;TZID=America/Los_Angeles:20271226T083000
+DESCRIPTION:YM adult leader meeting.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:a1db4f055472492f@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Sunday Quorum Lesson 4
+DTSTART;TZID=America/Los_Angeles:20271226T110000
+DTEND;TZID=America/Los_Angeles:20271226T120000
+DESCRIPTION:Young men teach\; teachers to be assigned. Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:8810549d21d816fd@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Presidency Meeting
+DTSTART;TZID=America/Los_Angeles:20271226T120000
+DTEND;TZID=America/Los_Angeles:20271226T130000
+DESCRIPTION:Quorum presidencies meet after church.
+LOCATION:Arlington Stake Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3bafed8dcbde6c40@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Ward Youth Council
+DTSTART;TZID=America/Los_Angeles:20271226T180000
+DTEND;TZID=America/Los_Angeles:20271226T190000
+DESCRIPTION:Quorum presidents only.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:0f74085dabc6f7fd@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:Bishop's Youth Discussion
+DTSTART;TZID=America/Los_Angeles:20271226T190000
+DTEND;TZID=America/Los_Angeles:20271226T200000
+DESCRIPTION:All youth.
+LOCATION:Location varies
+END:VEVENT
+BEGIN:VEVENT
+UID:b8faad70926dc45a@arlingtonyoungmen
+DTSTAMP:20261122T171014Z
+SUMMARY:YM Quorums Only
+DTSTART;TZID=America/Los_Angeles:20271228T190000
+DTEND;TZID=America/Los_Angeles:20271228T203000
+DESCRIPTION:Each quorum plans its own activity.
+LOCATION:Arlington Stake Center
+END:VEVENT
+END:VCALENDAR

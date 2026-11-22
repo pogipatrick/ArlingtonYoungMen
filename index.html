@@ -3,20 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Young Men</title>
-<meta name="description" content="Calendar, this week's activities and to-dos for the young men and their parents.">
+<title>Arlington Young Men</title>
+<meta name="description" content="Calendar, this week's activities and to-dos for the Arlington Ward young men and their parents.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="hero">
   <div class="wrap">
-    <h1>Young Men</h1>
+    <h1>Arlington Young Men</h1>
     <p class="sub">Everything for the young men and their parents, in one place.</p>
     <nav>
       <a href="#week">This week</a>
       <a href="#calendar">Calendar</a>
-      <a href="#links">Forms &amp; links</a>
-      <a href="#contacts">Contacts</a>
+      <a href="#subscribe">Add to my phone</a>
     </nav>
   </div>
 </header>
@@ -24,44 +23,38 @@
 <main class="wrap">
   <section id="week" class="card">
     <h2>This week</h2>
-    <p class="muted" id="week-range">Loading…</p>
+    <p class="muted" id="week-range"></p>
     <ul id="week-events" class="events"></ul>
-    <div id="week-todos-wrap" hidden>
-      <h3>To-dos</h3>
-      <ul id="week-todos" class="todos"></ul>
-    </div>
-    <p class="muted small" id="week-updated"></p>
   </section>
 
   <section id="calendar" class="card">
-    <h2>Full calendar</h2>
-    <div class="cal">
-      <!-- CALENDAR_EMBED: replace src with the calendar's public embed URL -->
-      <iframe id="cal-frame" title="Young Men calendar"
-        src="about:blank" frameborder="0" scrolling="no"></iframe>
+    <div class="cal-head">
+      <button id="prev" class="nav-btn" aria-label="Previous month">‹</button>
+      <h2 id="month-title"></h2>
+      <button id="next" class="nav-btn" aria-label="Next month">›</button>
     </div>
-    <p><a class="btn" id="cal-subscribe" href="#">Add to my phone's calendar</a></p>
+    <div class="legend">
+      <span class="tag t-ym">Young Men</span>
+      <span class="tag t-youth">YM/YW</span>
+      <span class="tag t-sunday">Sunday lesson</span>
+      <span class="tag t-temple">Temple</span>
+      <span class="tag t-stake">Stake</span>
+      <span class="tag t-leaders">Leaders/councils</span>
+    </div>
+    <div id="grid" class="grid" aria-hidden="true"></div>
+    <ul id="month-list" class="events month-list"></ul>
   </section>
 
-  <section id="links" class="card">
-    <h2>Forms &amp; links</h2>
-    <ul class="links">
-      <li><a href="#">Permission &amp; medical release form</a></li>
-      <li><a href="#">GroupMe chat</a></li>
-    </ul>
-  </section>
-
-  <section id="contacts" class="card">
-    <h2>Contacts</h2>
-    <ul class="links">
-      <li><strong>Young Men leader</strong>: name, phone</li>
-    </ul>
+  <section id="subscribe" class="card">
+    <h2>Add to my phone's calendar</h2>
+    <p>Subscribe once and every activity shows up in your own calendar, with updates as plans change.</p>
+    <p><a class="btn" id="sub-link" href="calendar.ics">Subscribe</a></p>
+    <p class="muted small">iPhone: tap Subscribe, then Subscribe again. Google Calendar: open Google Calendar on a computer, choose Other calendars → + → From URL, and paste <code id="ics-url"></code></p>
   </section>
 </main>
 
-<footer class="wrap muted small">Updated automatically from the Young Men Google Calendar.</footer>
+<footer class="wrap muted small">Arlington Ward Young Men · Times are Pacific.</footer>
 
-<script src="config.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

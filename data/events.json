@@ -108,8 +108,17 @@
  },
  {
   "date": "2026-12-15",
+  "title": "Teachers: Bowling at Angel of the Winds",
+  "details": "Teachers quorum bowling, with food. Meet at Carter's house at 5:30 PM.\nPlease text if you are or aren't able to go.",
+  "location": "Meet at Carter's house",
+  "type": "ym",
+  "start": "17:30",
+  "end": "20:00"
+ },
+ {
+  "date": "2026-12-15",
   "title": "YM Quorums Only",
-  "details": "Each quorum plans its own activity.",
+  "details": "Each quorum plans its own activity.\nTeachers: bowling (see separate event).",
   "location": "Arlington Stake Center",
   "type": "ym",
   "start": "19:00",

@@ -41,3 +41,8 @@ a{color:var(--accent)}
 .btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:600}
 code{word-break:break-all;font-size:.8rem}
 footer{padding:8px 16px 32px}
+.flyers{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:12px}
+.flyer{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.flyer img{display:block;width:100%;height:auto;background:#fff}
+.flyer figcaption{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.btn.small{padding:6px 12px;font-size:.9rem}

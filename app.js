@@ -74,4 +74,25 @@
     .then(function (r) { return r.json(); })
     .then(function (data) { events = data.sort(function (a, b) { return (a.date + (a.start || "")).localeCompare(b.date + (b.start || "")); }); renderWeek(); renderMonth(); })
     .catch(function () { document.getElementById("week-range").textContent = "Couldn't load the calendar. Please refresh."; });
+
+  fetch("data/supplements.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (items) {
+      var box = document.getElementById("flyers"), today = key(new Date());
+      items = items.filter(function (f) { return !f.until || f.until >= today; })
+        .sort(function (a, b) { return (b.posted || "").localeCompare(a.posted || ""); });
+      if (!items.length) { box.appendChild(el("p", "muted", "No flyers right now.")); return; }
+      items.forEach(function (f) {
+        var fig = el("figure", "flyer");
+        var a = el("a"); a.href = f.image; a.target = "_blank"; a.rel = "noopener";
+        var img = el("img"); img.src = f.image; img.alt = f.title; img.loading = "lazy";
+        a.appendChild(img); fig.appendChild(a);
+        var cap = el("figcaption");
+        cap.appendChild(el("div", "what", f.title));
+        if (f.details) cap.appendChild(el("div", "details muted", f.details));
+        if (f.link) { var b = el("a", "btn small", f.linkText || "Open link"); b.href = f.link; b.target = "_blank"; b.rel = "noopener"; cap.appendChild(b); }
+        fig.appendChild(cap); box.appendChild(fig);
+      });
+    })
+    .catch(function () { document.getElementById("flyers").appendChild(el("p", "muted", "Couldn't load flyers. Please refresh.")); });
 })();

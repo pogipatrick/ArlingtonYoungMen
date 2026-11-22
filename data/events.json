@@ -188,6 +188,15 @@
   "end": "20:00"
  },
  {
+  "date": "2026-12-28",
+  "endDate": "2026-12-29",
+  "allDay": true,
+  "title": "Snow-ish Camping",
+  "details": "Young men overnight camping trip, Dec 28 to 29.",
+  "location": "",
+  "type": "ym"
+ },
+ {
   "date": "2026-12-29",
   "title": "5th Tuesday Service Activity",
   "details": "YM/YW service. Food bank (Melisa L checking with Bro Montero and Lilly) or Purrfect Pals.",
@@ -215,7 +224,7 @@
   "end": "20:30"
  },
  {
-  "date": "2027-01-08",
+  "date": "2027-01-09",
   "title": "Youth Temple Trip",
   "details": "8 PM session (the only time available that day).",
   "location": "Arlington Stake Center",

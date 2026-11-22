@@ -606,11 +606,10 @@
  {
   "date": "2027-04-06",
   "title": "YM/YW Combined: Moses Lake Temple + Biking/Hiking day trip (spring break)",
-  "details": "1st Tuesday combined YM/YW activity. In charge: Gatherers of Light.",
+  "details": "All-day road trip to the Moses Lake Temple with biking/hiking (spring break). In charge: Gatherers of Light.",
   "location": "Arlington Stake Center",
   "type": "temple",
-  "start": "19:00",
-  "end": "20:30"
+  "allDay": true
  },
  {
   "date": "2027-04-11",

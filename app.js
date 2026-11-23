@@ -75,7 +75,13 @@
       var cell = el("div", "cell" + (d.getMonth() !== m ? " other" : "") + (key(d) === todayKey ? " today" : ""));
       cell.appendChild(el("div", "num", d.getDate()));
       onDay(key(d)).forEach(function (e) {
-        var c = el("div", "chip t-" + e.type, (e.allDay ? "" : fmtTime(e.start).replace(" ", "").toLowerCase() + " ") + e.title.replace(/^Sunday Quorum Lesson:?\s*/, "Lesson ").replace(/^YM\/YW Combined:\s*/, ""));
+        var label = e.title.replace(/^YM\/YW Combined:\s*/, "");
+        if (e.type === "sunday") {
+          var who = (e.details || "").split("\n").filter(function (l) { return /teaching:/i.test(l); })
+            .map(function (l) { return l.replace(/^(\w+) teaching:\s*/, function (m, q) { return q.slice(0, 1) + ": "; }); });
+          label = "Lesson" + (who.length ? " · " + who.join(", ") : "");
+        }
+        var c = el("div", "chip t-" + e.type, (e.allDay ? "" : fmtTime(e.start).replace(" ", "").toLowerCase() + " ") + label);
         c.title = e.title + " · " + when(e);
         cell.appendChild(c);
       });

@@ -264,6 +264,14 @@
   "host": "Deacons"
  },
  {
+  "date": "2027-01-16",
+  "title": "Multi-Stake Dance (Everett)",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true
+ },
+ {
   "date": "2027-01-17",
   "title": "Sunday Quorum Lesson: Learn more about your relationship with God",
   "details": "Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/01/fsy-lessons/03-third-sunday?lang=eng",
@@ -287,6 +295,14 @@
   "details": "4th Saturday. In charge: Priests. Activity TBD.",
   "location": "Arlington Stake Center",
   "type": "ym",
+  "allDay": true
+ },
+ {
+  "date": "2027-01-23",
+  "title": "Worldwide Event for Youth",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
   "allDay": true
  },
  {
@@ -409,6 +425,22 @@
   "end": "20:00"
  },
  {
+  "date": "2027-02-20",
+  "title": "Youth Conference",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true
+ },
+ {
+  "date": "2027-02-20",
+  "title": "Multi-Stake Dance (Arlington)",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true
+ },
+ {
   "date": "2027-02-21",
   "title": "Sunday Quorum Lesson: February lesson 3",
   "details": "Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng",
@@ -509,6 +541,14 @@
   "host": "Granite Falls Ward"
  },
  {
+  "date": "2027-03-13",
+  "title": "Multi-Stake Formal Dance, 16+ (Lake Stevens)",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true
+ },
+ {
   "date": "2027-03-14",
   "title": "Sunday Quorum Lesson: March lesson 2",
   "details": "Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng",
@@ -535,13 +575,13 @@
   "allDay": true
  },
  {
-  "date": "2027-03-21",
-  "title": "Sunday Quorum Lesson: March lesson 3",
-  "details": "Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng",
-  "location": "Arlington Stake Center",
-  "type": "sunday",
-  "start": "11:00",
-  "end": "12:00"
+  "date": "2027-03-20",
+  "title": "Stake Conference",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true,
+  "endDate": "2027-03-21"
  },
  {
   "date": "2027-03-23",
@@ -617,19 +657,19 @@
  {
   "date": "2027-04-01",
   "title": "Stake April Fools Youth Activity",
-  "details": "Stake event.",
+  "details": "Stake youth activity. From the 2027 Stake Youth Activity Calendar (tentative).",
   "location": "Arlington Stake Center",
   "type": "stake",
   "allDay": true
  },
  {
-  "date": "2027-04-04",
-  "title": "Sunday Quorum Lesson: April lesson 1 (Fast Sunday)",
-  "details": "Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng",
-  "location": "Arlington Stake Center",
-  "type": "sunday",
-  "start": "11:00",
-  "end": "12:00"
+  "date": "2027-04-03",
+  "title": "General Conference",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true,
+  "endDate": "2027-04-04"
  },
  {
   "date": "2027-04-06",
@@ -660,20 +700,19 @@
   "host": "Teachers"
  },
  {
-  "date": "2027-04-15",
-  "title": "Stake Jr./Sr. Temple Trip",
-  "details": "Stake event, Apr 15 to 17.",
-  "location": "Arlington Stake Center",
-  "type": "temple",
-  "allDay": true,
-  "endDate": "2027-04-17"
- },
- {
   "date": "2027-04-17",
   "title": "Youth Temple Trip",
   "details": "Monthly youth temple trip, usually the 3rd Saturday; date and time depend on temple availability.",
   "location": "Arlington Stake Center",
   "type": "temple",
+  "allDay": true
+ },
+ {
+  "date": "2027-04-17",
+  "title": "Stake Jr./Sr. Temple Trip",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
   "allDay": true
  },
  {
@@ -795,11 +834,28 @@
   "host": "Priests"
  },
  {
+  "date": "2027-05-14",
+  "title": "Priesthood Campout",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "ym",
+  "allDay": true,
+  "endDate": "2027-05-15"
+ },
+ {
   "date": "2027-05-15",
   "title": "Youth Temple Trip",
   "details": "Monthly youth temple trip, usually the 3rd Saturday; date and time depend on temple availability.",
   "location": "Arlington Stake Center",
   "type": "temple",
+  "allDay": true
+ },
+ {
+  "date": "2027-05-15",
+  "title": "Stake Youth Activity",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
   "allDay": true
  },
  {
@@ -909,6 +965,15 @@
   "type": "sunday",
   "start": "11:00",
   "end": "12:00"
+ },
+ {
+  "date": "2027-06-06",
+  "title": "Seminary Graduation",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "start": "19:00",
+  "end": "20:00"
  },
  {
   "date": "2027-06-08",
@@ -1035,6 +1100,15 @@
   "end": "20:00"
  },
  {
+  "date": "2027-06-29",
+  "title": "Stake Youth Activity: Lake Day",
+  "details": "Time not listed yet. From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "start": "19:00",
+  "end": "20:00"
+ },
+ {
   "date": "2027-07-04",
   "title": "Sunday Quorum Lesson: July lesson 1 (Fast Sunday)",
   "details": "Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng",
@@ -1108,6 +1182,14 @@
  },
  {
   "date": "2027-07-25",
+  "title": "SLC Trip Meeting for Parents & Youth",
+  "details": "Time not listed yet. From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true
+ },
+ {
+  "date": "2027-07-25",
   "title": "YM Adult Leaders Meeting",
   "details": "YM adult leader meeting.",
   "location": "Arlington Stake Center",
@@ -1171,8 +1253,8 @@
  },
  {
   "date": "2027-08-02",
-  "title": "SLC Temple Trip",
-  "details": "Aug 2 to 6.",
+  "title": "Salt Lake Youth Trip (14+)",
+  "details": "Aug 2 to 6. Ages 14 and up. From the 2027 Stake Youth Activity Calendar (tentative).",
   "location": "Arlington Stake Center",
   "type": "temple",
   "allDay": true,
@@ -1324,6 +1406,15 @@
   "end": "12:00"
  },
  {
+  "date": "2027-09-05",
+  "title": "Seminary Kick-off Devotional",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "start": "19:00",
+  "end": "20:00"
+ },
+ {
   "date": "2027-09-07",
   "title": "YM/YW Combined: Activity TBD",
   "details": "1st Tuesday combined YM/YW activity.",
@@ -1332,6 +1423,14 @@
   "start": "19:00",
   "end": "20:00",
   "host": "TBD"
+ },
+ {
+  "date": "2027-09-11",
+  "title": "Stake Hike Activity",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true
  },
  {
   "date": "2027-09-12",
@@ -1441,13 +1540,13 @@
   "end": "20:00"
  },
  {
-  "date": "2027-10-03",
-  "title": "Sunday Quorum Lesson: October lesson 1 (Fast Sunday)",
-  "details": "Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng",
-  "location": "Arlington Stake Center",
-  "type": "sunday",
-  "start": "11:00",
-  "end": "12:00"
+  "date": "2027-10-02",
+  "title": "General Conference",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true,
+  "endDate": "2027-10-03"
  },
  {
   "date": "2027-10-05",
@@ -1458,6 +1557,14 @@
   "start": "19:00",
   "end": "20:00",
   "host": "Priests"
+ },
+ {
+  "date": "2027-10-09",
+  "title": "Stake Bowling at Angel of the Winds",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true
  },
  {
   "date": "2027-10-10",
@@ -1596,20 +1703,20 @@
  },
  {
   "date": "2027-11-06",
-  "title": "Stake Fall Festival",
-  "details": "Stake event.",
+  "title": "Multi-Stake Youth Fall Festival & Dance @ Arlington",
+  "details": "Date from the 2027 planning notes; the stake calendar lists it in November without a date. From the 2027 Stake Youth Activity Calendar (tentative).",
   "location": "Arlington Stake Center",
   "type": "stake",
   "allDay": true
  },
  {
-  "date": "2027-11-07",
-  "title": "Sunday Quorum Lesson: November lesson 1 (Fast Sunday)",
-  "details": "Lesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng",
-  "location": "Arlington Stake Center",
-  "type": "sunday",
-  "start": "11:00",
-  "end": "12:00"
+  "date": "2027-11-06",
+  "title": "Stake Conference",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true,
+  "endDate": "2027-11-07"
  },
  {
   "date": "2027-11-09",
@@ -1748,12 +1855,11 @@
  },
  {
   "date": "2027-12-09",
-  "title": "Nativity Festival (Stake Youth Night)",
-  "details": "Dec 9 to 12.",
-  "location": "Arlington Stake Center",
+  "title": "Stake/Area Youth Nativity Night",
+  "details": "All youth. From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
   "type": "stake",
-  "allDay": true,
-  "endDate": "2027-12-12"
+  "allDay": true
  },
  {
   "date": "2027-12-12",
@@ -1861,5 +1967,13 @@
   "type": "ym",
   "start": "19:00",
   "end": "20:00"
+ },
+ {
+  "date": "2027-12-31",
+  "title": "New Year's Eve Dance",
+  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "location": "",
+  "type": "stake",
+  "allDay": true
  }
 ]

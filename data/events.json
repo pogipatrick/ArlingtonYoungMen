@@ -1,15 +1,6 @@
 [
  {
   "date": "2026-11-22",
-  "title": "YM Adult Leaders Meeting",
-  "details": "YM adult leader meeting.",
-  "location": "Arlington Stake Center",
-  "type": "leaders",
-  "start": "07:30",
-  "end": "08:30"
- },
- {
-  "date": "2026-11-22",
   "title": "Sunday Quorum Lesson: Becoming a covenant son of God",
   "details": "For the Strength of Youth.\nDeacons teaching: Porter N.\nPriests teaching: Brendan R.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/11/fsy-lessons/04b-fourth-sunday?lang=eng",
   "location": "Arlington Stake Center",
@@ -52,6 +43,15 @@
   "type": "ym",
   "start": "19:00",
   "end": "20:00"
+ },
+ {
+  "date": "2026-11-29",
+  "title": "YM Adult Leaders Meeting",
+  "details": "YM adult leader meeting (moved from Nov 22).",
+  "location": "Arlington Stake Center",
+  "type": "leaders",
+  "start": "07:30",
+  "end": "08:30"
  },
  {
   "date": "2026-11-29",

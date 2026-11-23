@@ -398,13 +398,13 @@
  },
  {
   "date": "2027-02-02",
-  "title": "YM/YW Combined: Activity TBD",
-  "details": "1st Tuesday combined YM/YW activity.",
+  "title": "All YM Combined",
+  "details": "All young men together.",
   "location": "Arlington Stake Center",
-  "type": "youth",
+  "type": "ym",
   "start": "19:00",
   "end": "20:00",
-  "host": "TBD"
+  "host": "Teachers"
  },
  {
   "date": "2027-02-06",
@@ -541,13 +541,13 @@
  },
  {
   "date": "2027-03-02",
-  "title": "YM/YW Combined: Activity TBD",
-  "details": "1st Tuesday combined YM/YW activity.",
+  "title": "All YM Combined",
+  "details": "All young men together.",
   "location": "Arlington Stake Center",
-  "type": "youth",
+  "type": "ym",
   "start": "19:00",
   "end": "20:00",
-  "host": "TBD"
+  "host": "Priests"
  },
  {
   "date": "2027-03-07",
@@ -725,7 +725,7 @@
   "type": "ym",
   "start": "19:00",
   "end": "20:00",
-  "host": "Teachers"
+  "host": "Deacons"
  },
  {
   "date": "2027-04-17",
@@ -859,7 +859,7 @@
   "type": "ym",
   "start": "19:00",
   "end": "20:00",
-  "host": "Priests"
+  "host": "Teachers"
  },
  {
   "date": "2027-05-14",
@@ -978,13 +978,13 @@
  },
  {
   "date": "2027-06-01",
-  "title": "YM/YW Combined: Activity TBD",
-  "details": "1st Tuesday combined YM/YW activity.",
+  "title": "All YM Combined",
+  "details": "All young men together.",
   "location": "Arlington Stake Center",
-  "type": "youth",
+  "type": "ym",
   "start": "19:00",
   "end": "20:00",
-  "host": "TBD"
+  "host": "Priests"
  },
  {
   "date": "2027-06-06",
@@ -1445,13 +1445,13 @@
  },
  {
   "date": "2027-09-07",
-  "title": "YM/YW Combined: Activity TBD",
-  "details": "1st Tuesday combined YM/YW activity.",
+  "title": "All YM Combined",
+  "details": "All young men together.",
   "location": "Arlington Stake Center",
-  "type": "youth",
+  "type": "ym",
   "start": "19:00",
   "end": "20:00",
-  "host": "TBD"
+  "host": "Priests"
  },
  {
   "date": "2027-09-11",
@@ -1748,7 +1748,7 @@
   "type": "ym",
   "start": "19:00",
   "end": "20:00",
-  "host": "Priests"
+  "host": "Teachers"
  },
  {
   "date": "2027-11-13",

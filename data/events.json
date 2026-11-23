@@ -56,12 +56,13 @@
  },
  {
   "date": "2026-11-29",
-  "title": "Sunday Quorum Lesson: 5th Sunday lesson",
-  "details": "5th Sunday lesson.\nDeacons teaching: Benjamin L.\nPriests teaching: Dallin C.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/11?lang=eng",
+  "title": "Sunday Quorum Lesson: 5th Sunday (adult-led)",
+  "details": "Adult-led lesson.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/11?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
-  "end": "12:00"
+  "end": "12:00",
+  "short": "5th Sunday (adult-led)"
  },
  {
   "date": "2026-11-29",
@@ -85,7 +86,7 @@
  {
   "date": "2026-12-06",
   "title": "Sunday Quorum Lesson: Study the chapter from the FSY guide",
-  "details": "Fast Sunday.\nDeacons teaching: Reese K.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/12/fsy-lessons/01-fast-sunday?lang=eng",
+  "details": "Fast Sunday.\nDeacons teaching: Benjamin L.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/12/fsy-lessons/01-fast-sunday?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -113,7 +114,7 @@
  {
   "date": "2026-12-13",
   "title": "Sunday Quorum Lesson: Learn more about trusting Jesus Christ",
-  "details": "Deacons teaching: Luke D.\nPriests teaching: Ethan L.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/12/fsy-lessons/02-second-sunday?lang=eng",
+  "details": "Deacons teaching: Reese K.\nPriests teaching: Ethan L.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/12/fsy-lessons/02-second-sunday?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -141,7 +142,7 @@
  {
   "date": "2026-12-20",
   "title": "Sunday Quorum Lesson: Learn more about hope",
-  "details": "Deacons teaching: Porter N.\nPriests teaching: Brendan R.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/12/fsy-lessons/03-third-sunday?lang=eng",
+  "details": "Deacons teaching: Luke D.\nPriests teaching: Brendan R.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/12/fsy-lessons/03-third-sunday?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -178,7 +179,7 @@
  {
   "date": "2026-12-27",
   "title": "Sunday Quorum Lesson: Becoming a covenant son of God",
-  "details": "Deacons teaching: Benjamin L.\nPriests teaching: Dallin C.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/12/fsy-lessons/04b-fourth-sunday?lang=eng",
+  "details": "Deacons teaching: Porter N.\nPriests teaching: Dallin C.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2026/12/fsy-lessons/04b-fourth-sunday?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -288,6 +289,14 @@
   "allDay": true
  },
  {
+  "date": "2027-01-16",
+  "title": "2027 Youth Theme Broadcast",
+  "details": "Churchwide. From the 2027 Arlington Stake Calendar.",
+  "location": "",
+  "type": "stake",
+  "allDay": true
+ },
+ {
   "date": "2027-01-17",
   "title": "Sunday Quorum Lesson: Learn more about your relationship with God",
   "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/01/fsy-lessons/03-third-sunday?lang=eng",
@@ -316,8 +325,16 @@
  },
  {
   "date": "2027-01-23",
-  "title": "Worldwide Event for Youth",
-  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "title": "2027 Youth Theme Activity (stake)",
+  "details": "From the 2027 Arlington Stake Calendar.",
+  "location": "",
+  "type": "stake",
+  "allDay": true
+ },
+ {
+  "date": "2027-01-24",
+  "title": "Ward Conference (Arlington)",
+  "details": "General session. From the 2027 Arlington Stake Calendar.",
   "location": "",
   "type": "stake",
   "allDay": true
@@ -379,12 +396,13 @@
  },
  {
   "date": "2027-01-31",
-  "title": "Sunday Quorum Lesson: 5th Sunday lesson",
-  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/01?lang=eng",
+  "title": "Sunday Quorum Lesson: 5th Sunday (adult-led)",
+  "details": "Adult-led lesson.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/01?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
-  "end": "12:00"
+  "end": "12:00",
+  "short": "5th Sunday (adult-led)"
  },
  {
   "date": "2027-02-02",
@@ -408,7 +426,7 @@
  {
   "date": "2027-02-07",
   "title": "Sunday Quorum Lesson: February lesson 1 (Fast Sunday)",
-  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng",
+  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -427,7 +445,7 @@
  {
   "date": "2027-02-14",
   "title": "Sunday Quorum Lesson: February lesson 2",
-  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng",
+  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -461,7 +479,7 @@
  {
   "date": "2027-02-21",
   "title": "Sunday Quorum Lesson: February lesson 3",
-  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng",
+  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -496,7 +514,7 @@
  {
   "date": "2027-02-28",
   "title": "Sunday Quorum Lesson: February lesson 4",
-  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng",
+  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/02?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -542,7 +560,7 @@
  {
   "date": "2027-03-07",
   "title": "Sunday Quorum Lesson: March lesson 1 (Fast Sunday)",
-  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng",
+  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -569,7 +587,7 @@
  {
   "date": "2027-03-14",
   "title": "Sunday Quorum Lesson: March lesson 2",
-  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng",
+  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -630,7 +648,7 @@
  {
   "date": "2027-03-28",
   "title": "Sunday Quorum Lesson: March lesson 4",
-  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng",
+  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/03?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -700,8 +718,8 @@
  },
  {
   "date": "2027-04-11",
-  "title": "Sunday Quorum Lesson: April lesson 2",
-  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng",
+  "title": "Sunday Quorum Lesson: April lesson 1 (Fast Sunday)",
+  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -735,8 +753,8 @@
  },
  {
   "date": "2027-04-18",
-  "title": "Sunday Quorum Lesson: April lesson 3",
-  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng",
+  "title": "Sunday Quorum Lesson: April lesson 2",
+  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -770,8 +788,8 @@
  },
  {
   "date": "2027-04-25",
-  "title": "Sunday Quorum Lesson: April lesson 4",
-  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng",
+  "title": "Sunday Quorum Lesson: April lesson 3",
+  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/04?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -816,7 +834,7 @@
  {
   "date": "2027-05-02",
   "title": "Sunday Quorum Lesson: May lesson 1 (Fast Sunday)",
-  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng",
+  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -835,7 +853,7 @@
  {
   "date": "2027-05-09",
   "title": "Sunday Quorum Lesson: May lesson 2",
-  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng",
+  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -879,7 +897,7 @@
  {
   "date": "2027-05-16",
   "title": "Sunday Quorum Lesson: May lesson 3",
-  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng",
+  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -914,7 +932,7 @@
  {
   "date": "2027-05-23",
   "title": "Sunday Quorum Lesson: May lesson 4",
-  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng",
+  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -958,12 +976,13 @@
  },
  {
   "date": "2027-05-30",
-  "title": "Sunday Quorum Lesson: 5th Sunday lesson",
-  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng",
+  "title": "Sunday Quorum Lesson: 5th Sunday (adult-led)",
+  "details": "Adult-led lesson.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/05?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
-  "end": "12:00"
+  "end": "12:00",
+  "short": "5th Sunday (adult-led)"
  },
  {
   "date": "2027-06-01",
@@ -978,7 +997,7 @@
  {
   "date": "2027-06-06",
   "title": "Sunday Quorum Lesson: June lesson 1 (Fast Sunday)",
-  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng",
+  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1006,7 +1025,7 @@
  {
   "date": "2027-06-13",
   "title": "Sunday Quorum Lesson: June lesson 2",
-  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng",
+  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1040,7 +1059,7 @@
  {
   "date": "2027-06-20",
   "title": "Sunday Quorum Lesson: June lesson 3",
-  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng",
+  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1064,6 +1083,14 @@
   "allDay": true
  },
  {
+  "date": "2027-06-26",
+  "title": "Stake Youth Lake Day/Evening",
+  "details": "From the 2027 Arlington Stake Calendar.",
+  "location": "",
+  "type": "stake",
+  "allDay": true
+ },
+ {
   "date": "2027-06-27",
   "title": "YM Adult Leaders Meeting",
   "details": "YM adult leader meeting.",
@@ -1075,7 +1102,7 @@
  {
   "date": "2027-06-27",
   "title": "Sunday Quorum Lesson: June lesson 4",
-  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng",
+  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/06?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1118,18 +1145,9 @@
   "end": "20:00"
  },
  {
-  "date": "2027-06-29",
-  "title": "Stake Youth Activity: Lake Day",
-  "details": "Time not listed yet. From the 2027 Stake Youth Activity Calendar (tentative).",
-  "location": "",
-  "type": "stake",
-  "start": "19:00",
-  "end": "20:00"
- },
- {
   "date": "2027-07-04",
   "title": "Sunday Quorum Lesson: July lesson 1 (Fast Sunday)",
-  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng",
+  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1148,7 +1166,7 @@
  {
   "date": "2027-07-11",
   "title": "Sunday Quorum Lesson: July lesson 2",
-  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng",
+  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1175,7 +1193,7 @@
  {
   "date": "2027-07-18",
   "title": "Sunday Quorum Lesson: July lesson 3",
-  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng",
+  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1218,7 +1236,7 @@
  {
   "date": "2027-07-25",
   "title": "Sunday Quorum Lesson: July lesson 4",
-  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng",
+  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/07?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1263,7 +1281,7 @@
  {
   "date": "2027-08-01",
   "title": "Sunday Quorum Lesson: August lesson 1 (Fast Sunday)",
-  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng",
+  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1291,7 +1309,7 @@
  {
   "date": "2027-08-08",
   "title": "Sunday Quorum Lesson: August lesson 2",
-  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng",
+  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1310,7 +1328,7 @@
  {
   "date": "2027-08-15",
   "title": "Sunday Quorum Lesson: August lesson 3",
-  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng",
+  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1345,7 +1363,7 @@
  {
   "date": "2027-08-22",
   "title": "Sunday Quorum Lesson: August lesson 4",
-  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng",
+  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1397,12 +1415,13 @@
  },
  {
   "date": "2027-08-29",
-  "title": "Sunday Quorum Lesson: 5th Sunday lesson",
-  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng",
+  "title": "Sunday Quorum Lesson: 5th Sunday (adult-led)",
+  "details": "Adult-led lesson.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/08?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
-  "end": "12:00"
+  "end": "12:00",
+  "short": "5th Sunday (adult-led)"
  },
  {
   "date": "2027-08-31",
@@ -1417,7 +1436,7 @@
  {
   "date": "2027-09-05",
   "title": "Sunday Quorum Lesson: September lesson 1 (Fast Sunday)",
-  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng",
+  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1453,7 +1472,7 @@
  {
   "date": "2027-09-12",
   "title": "Sunday Quorum Lesson: September lesson 2",
-  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng",
+  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1480,7 +1499,7 @@
  {
   "date": "2027-09-19",
   "title": "Sunday Quorum Lesson: September lesson 3",
-  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng",
+  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1514,8 +1533,8 @@
  },
  {
   "date": "2027-09-26",
-  "title": "Sunday Quorum Lesson: September lesson 4",
-  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/09?lang=eng",
+  "title": "Sunday Quorum Lesson: October lesson 1 (Fast Sunday, moved for General Conference)",
+  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1579,7 +1598,7 @@
  {
   "date": "2027-10-09",
   "title": "Stake Bowling at Angel of the Winds",
-  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
+  "details": "Stake youth activity. From the 2027 Arlington Stake Calendar.",
   "location": "",
   "type": "stake",
   "allDay": true
@@ -1587,7 +1606,7 @@
  {
   "date": "2027-10-10",
   "title": "Sunday Quorum Lesson: October lesson 2",
-  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng",
+  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1614,7 +1633,7 @@
  {
   "date": "2027-10-17",
   "title": "Sunday Quorum Lesson: October lesson 3",
-  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng",
+  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1649,7 +1668,7 @@
  {
   "date": "2027-10-24",
   "title": "Sunday Quorum Lesson: October lesson 4",
-  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng",
+  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1702,12 +1721,13 @@
  },
  {
   "date": "2027-10-31",
-  "title": "Sunday Quorum Lesson: 5th Sunday lesson",
-  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng",
+  "title": "Sunday Quorum Lesson: 5th Sunday (adult-led)",
+  "details": "Adult-led lesson.\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/10?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
-  "end": "12:00"
+  "end": "12:00",
+  "short": "5th Sunday (adult-led)"
  },
  {
   "date": "2027-11-02",
@@ -1718,14 +1738,6 @@
   "start": "19:00",
   "end": "20:00",
   "host": "Deacons & Builders of Faith (YW)"
- },
- {
-  "date": "2027-11-06",
-  "title": "Multi-Stake Youth Fall Festival & Dance @ Arlington",
-  "details": "Date from the 2027 planning notes; the stake calendar lists it in November without a date. From the 2027 Stake Youth Activity Calendar (tentative).",
-  "location": "Arlington Stake Center",
-  "type": "stake",
-  "allDay": true
  },
  {
   "date": "2027-11-06",
@@ -1747,9 +1759,17 @@
   "host": "Priests"
  },
  {
+  "date": "2027-11-13",
+  "title": "Multi-Stake Youth Fall Festival & Dance @ Arlington",
+  "details": "Multi-stake youth activity. From the 2027 Arlington Stake Calendar.",
+  "location": "Arlington Stake Center",
+  "type": "stake",
+  "allDay": true
+ },
+ {
   "date": "2027-11-14",
-  "title": "Sunday Quorum Lesson: November lesson 2",
-  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng",
+  "title": "Sunday Quorum Lesson: November lesson 1 (Fast Sunday)",
+  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1774,8 +1794,8 @@
  },
  {
   "date": "2027-11-21",
-  "title": "Sunday Quorum Lesson: November lesson 3",
-  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng",
+  "title": "Sunday Quorum Lesson: November lesson 2",
+  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1809,8 +1829,8 @@
  },
  {
   "date": "2027-11-28",
-  "title": "Sunday Quorum Lesson: November lesson 4",
-  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng",
+  "title": "Sunday Quorum Lesson: November lesson 3",
+  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/11?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1855,7 +1875,7 @@
  {
   "date": "2027-12-05",
   "title": "Sunday Quorum Lesson: December lesson 1 (Fast Sunday)",
-  "details": "Deacons teaching: Logan M.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng",
+  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1873,7 +1893,7 @@
  },
  {
   "date": "2027-12-09",
-  "title": "Stake/Area Youth Nativity Night",
+  "title": "Thursday Night Nativity (stake youth)",
   "details": "All youth. From the 2027 Stake Youth Activity Calendar (tentative).",
   "location": "",
   "type": "stake",
@@ -1882,7 +1902,7 @@
  {
   "date": "2027-12-12",
   "title": "Sunday Quorum Lesson: December lesson 2",
-  "details": "Deacons teaching: James P.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng",
+  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1909,7 +1929,7 @@
  {
   "date": "2027-12-19",
   "title": "Sunday Quorum Lesson: December lesson 3",
-  "details": "Deacons teaching: Tristan R.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng",
+  "details": "Deacons teaching: Luke D.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",
@@ -1944,7 +1964,7 @@
  {
   "date": "2027-12-26",
   "title": "Sunday Quorum Lesson: December lesson 4",
-  "details": "Deacons teaching: Hudson L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng",
+  "details": "Deacons teaching: Benjamin L.\nTeachers & Priests: to be assigned\nLesson: https://www.churchofjesuschrist.org/study/ftsoy/2027/12?lang=eng",
   "location": "Arlington Stake Center",
   "type": "sunday",
   "start": "11:00",

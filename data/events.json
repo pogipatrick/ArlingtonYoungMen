@@ -104,11 +104,11 @@
  },
  {
   "date": "2026-12-10",
-  "title": "Stake Nativity Youth Night",
-  "details": "Stake youth activity. Time TBD.",
-  "location": "Arlington Stake Center",
+  "title": "Youth Night at the Nativity Festival",
+  "details": "Youth devotional, refreshments, and 500+ nativities from around the world. Bring your friends. See the flyer under Supplements (arlingtonnativity.com).",
+  "location": "17222 43rd Ave NE, Arlington, WA 98223",
   "type": "stake",
-  "allDay": true
+  "start": "19:00"
  },
  {
   "date": "2026-12-13",

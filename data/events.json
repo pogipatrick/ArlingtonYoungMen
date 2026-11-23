@@ -11,7 +11,7 @@
  {
   "date": "2026-11-22",
   "title": "YM Presidency Meeting",
-  "details": "Quorum presidencies meet after church.",
+  "details": "Quorum presidencies meet after church. Deacons moved to Nov 29.",
   "location": "Arlington Stake Center",
   "type": "leaders",
   "start": "12:00",
@@ -61,6 +61,15 @@
   "type": "sunday",
   "start": "11:00",
   "end": "12:00"
+ },
+ {
+  "date": "2026-11-29",
+  "title": "Deacons Presidency Meeting",
+  "details": "After church (moved from Nov 22).",
+  "location": "Arlington Stake Center",
+  "type": "leaders",
+  "start": "12:00",
+  "end": "13:00"
  },
  {
   "date": "2026-12-01",

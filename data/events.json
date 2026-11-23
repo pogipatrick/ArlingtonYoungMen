@@ -360,7 +360,7 @@
   "type": "youth",
   "start": "19:00",
   "end": "20:00",
-  "host": "TBD"
+  "host": "Stilly Ward"
  },
  {
   "date": "2027-02-06",
@@ -387,7 +387,8 @@
   "location": "See host ward",
   "type": "youth",
   "start": "19:00",
-  "end": "20:00"
+  "end": "20:00",
+  "host": "Stilly Ward"
  },
  {
   "date": "2027-02-14",
@@ -504,7 +505,8 @@
   "location": "See host ward",
   "type": "youth",
   "start": "19:00",
-  "end": "20:00"
+  "end": "20:00",
+  "host": "Granite Falls Ward"
  },
  {
   "date": "2027-03-14",
@@ -915,7 +917,8 @@
   "location": "See host ward",
   "type": "youth",
   "start": "19:00",
-  "end": "20:00"
+  "end": "20:00",
+  "host": "Lakewood Ward"
  },
  {
   "date": "2027-06-13",
@@ -1304,11 +1307,12 @@
  {
   "date": "2027-08-31",
   "title": "5th Tuesday Service Activity",
-  "details": "YM/YW service activity. Gatherers/Priests in charge.",
+  "details": "YM/YW service activity.",
   "location": "Arlington Stake Center",
   "type": "youth",
   "start": "19:00",
-  "end": "20:00"
+  "end": "20:00",
+  "host": "Gatherers of Light (YW) & Priests"
  },
  {
   "date": "2027-09-05",
@@ -1346,7 +1350,7 @@
   "type": "youth",
   "start": "19:00",
   "end": "20:00",
-  "host": "TBD (our ward hosts)"
+  "host": "Arlington Ward"
  },
  {
   "date": "2027-09-18",
@@ -1767,7 +1771,8 @@
   "location": "See host ward",
   "type": "youth",
   "start": "19:00",
-  "end": "20:00"
+  "end": "20:00",
+  "host": "Shoultes Ward"
  },
  {
   "date": "2027-12-18",

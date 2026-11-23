@@ -81,7 +81,7 @@
             .map(function (l) { return l.replace(/^(\w+) teaching:\s*/, function (m, q) { return q.slice(0, 1) + ": "; }); });
           label = "Lesson" + (who.length ? " · " + who.join(", ") : "");
         }
-        if (e.host) label += " · " + (e.host === "TBD" ? "Host TBD" : e.host);
+        if (e.host) label = (e.host === "TBD" ? "Host TBD" : e.host.replace(/ \(YW\)/g, "")) + " host · " + label;
         var c = el("div", "chip t-" + e.type, (e.allDay ? "" : fmtTime(e.start).replace(" ", "").toLowerCase() + " ") + label);
         c.title = e.title + " · " + when(e);
         cell.appendChild(c);

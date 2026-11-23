@@ -51,7 +51,7 @@
       var d = parse(e.date);
       var li = el("li");
       li.appendChild(el("div", "when", DAYS[d.getDay()] + " " + MONTHS[d.getMonth()].slice(0, 3) + " " + d.getDate()));
-      var title = e.title.replace(/^Sunday Quorum Lesson:?\s*/, "") || "Quorum lesson";
+      var title = e.short || e.title.replace(/^Sunday Quorum Lesson:?\s*/, "") || "Quorum lesson";
       var m = (e.details || "").match(/https?:\/\/\S+/);
       var url = m ? m[0] : "https://www.churchofjesuschrist.org/study/ftsoy/" + e.date.slice(0, 4) + "/" + e.date.slice(5, 7) + "?lang=eng";
       var a = el("a", "lesson-title", title); a.href = url; a.target = "_blank"; a.rel = "noopener";

@@ -864,11 +864,12 @@
  {
   "date": "2027-05-14",
   "title": "Priesthood Campout",
-  "details": "From the 2027 Stake Youth Activity Calendar (tentative).",
-  "location": "",
+  "details": "Stake Priesthood Commemoration Campout: annual commemoration of the restoration of the Aaronic Priesthood, with a campout at Cascade Park. Fri May 14, 5 PM to Sat May 15, 10 AM. From the Arlington Stake calendar.",
+  "location": "Cascade Park",
   "type": "ym",
-  "allDay": true,
-  "endDate": "2027-05-15"
+  "endDate": "2027-05-15",
+  "start": "17:00",
+  "end": "10:00"
  },
  {
   "date": "2027-05-15",

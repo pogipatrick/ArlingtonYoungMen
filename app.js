@@ -8,7 +8,7 @@
   function key(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
   function addDays(d, n) { var x = new Date(d); x.setDate(x.getDate() + n); return x; }
   function fmtTime(t) { if (!t) return ""; var h = +t.slice(0, 2), m = t.slice(3); return (h % 12 || 12) + (m === "00" ? "" : ":" + m) + (h < 12 ? " AM" : " PM"); }
-  function when(e) { return e.allDay ? (e.endDate ? "Through " + MONTHS[parse(e.endDate).getMonth()].slice(0,3) + " " + parse(e.endDate).getDate() : "All day") : fmtTime(e.start) + (e.end ? " to " + fmtTime(e.end) : ""); }
+  function when(e) { return e.allDay ? (e.endDate ? "Through " + MONTHS[parse(e.endDate).getMonth()].slice(0,3) + " " + parse(e.endDate).getDate() : "All day") : fmtTime(e.start) + (e.end ? " to " + (e.endDate && e.endDate !== e.date ? MONTHS[parse(e.endDate).getMonth()].slice(0,3) + " " + parse(e.endDate).getDate() + ", " : "") + fmtTime(e.end) : ""); }
   function el(tag, cls, text) { var x = document.createElement(tag); if (cls) x.className = cls; if (text != null) x.textContent = text; return x; }
   function onDay(k) { return events.filter(function (e) { return e.date <= k && (e.endDate || e.date) >= k; }); }
 
